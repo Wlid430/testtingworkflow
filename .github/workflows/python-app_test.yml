@@ -5,9 +5,9 @@ on:
 #   schedule:
 #     - cron: '*/2 * * * *'  # This schedules the action to run every 2 minutes
   push:
-    branches: [ "master" ]
+    branches: [ "main" ]
   pull_request:
-    branches: [ "master" ]
+    branches: [ "main" ]
 
 permissions:
   contents: read
