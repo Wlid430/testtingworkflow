@@ -1,13 +1,13 @@
 # .github/workflows/main.yml
 name: Python application
 
-on:
-  schedule:
-    - cron: '*/6 * * * *'  # This schedules the action to run every 2 minutes
-  push:
-    branches: [ "main" ]
-  pull_request:
-    branches: [ "main" ]
+# on:
+#   schedule:
+#     - cron: '*/6 * * * *'  # This schedules the action to run every 2 minutes
+#   push:
+#     branches: [ "main" ]
+#   pull_request:
+#     branches: [ "main" ]
 
 
 jobs:
